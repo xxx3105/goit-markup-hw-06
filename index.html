@@ -60,43 +60,87 @@
     <!-- SECTION 1.1. -->
 
     <main>
-      <div class="container-hero">
-        <div class="overlay">
-          <section class="hero-section">
-            <div class="container">
-              <h1 class="hero">
-                Effective Solutions<br />
-                for Your Business
-              </h1>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero">
+            Effective Solutions<br />
+            for Your Business
+          </h1>
 
-              <button class="herobutton" type="button" data-modal-open>Order Service</button>
+          <button class="herobutton" type="button" data-modal-open>Order Service</button>
 
-              <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                  <div class="position-but-modal">
-                    <button class="button-modal" data-modal-close>
-                      <svg class="kreuz-modal" width="8" height="8">
-                        <use href="./images/kreuz.svg#kreuz"></use>
-                      </svg>
-                    </button>
-                  </div>
-                  <p class="text-modal">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam porro non
-                    molestias beatae modi tempora recusandae facere velit. Quibusdam perferendis
-                    aspernatur numquam excepturi explicabo accusantium eveniet fugit, et vitae est.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam porro non
-                    molestias beatae modi tempora recusandae facere velit. Quibusdam perferendis
-                    aspernatur numquam excepturi explicabo accusantium eveniet fugit, et vitae est.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam porro non
-                    molestias beatae modi tempora recusandae facere velit. Quibusdam perferendis
-                    aspernatur numquam excepturi explicabo accusantium eveniet fugit, et vitae est.
-                  </p>
-                </div>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <div class="position-but-modal">
+                <button class="button-modal" data-modal-close>
+                  <svg class="kreuz-modal" width="8" height="8">
+                    <use href="./images/kreuz.svg#kreuz"></use>
+                  </svg>
+                </button>
               </div>
+
+              <p class="text-modal">Leave your contacts and we will call you back</p>
+
+              <form class="form js-speaker-form">
+                <div class="menu-pos">
+                  <div class="form-field">
+                    <label class="text-label" for="name">Name</label>
+                    <div class="jakor">
+                      <input type="text" name="user-name" id="name" placeholder="  " />
+
+                      <svg class="img-pos" width="12" height="12">
+                        <use href="./images/iconss.svg#icon-head"></use>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="form-field">
+                    <label class="text-label" for="tel">Phone</label>
+                    <div class="jakor">
+                      <input type="tel" name="tel" id="tel" placeholder="  " />
+                      <svg class="img-pos" width="12" height="12">
+                        <use href="./images/iconss.svg#icon-tel"></use>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="form-field">
+                    <label class="text-label" for="email">Email</label>
+                    <div class="jakor">
+                      <input type="email" name="mail" id="email" placeholder="  " />
+                      <svg class="img-pos" width="12" height="12">
+                        <use href="./images/iconss.svg#icon-conv"></use>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="form-field">
+                    <label class="text-label" for="comment">Comment</label>
+                    <textarea
+                      class="comment"
+                      name="comment"
+                      id="comment"
+                      rows="8"
+                      placeholder="Text input"
+                    ></textarea>
+                  </div>
+
+                  <div class="pol-position">
+                    <input type="checkbox" name="topic" value="html" id="html" />
+                    <label for="html">
+                      <p class="text-policy">
+                        I accept the terms and conditions of the <a href="#"> Privacy Policy </a>
+                      </p>
+                    </label>
+                  </div>
+
+                  <button class="herobutton" type="submit">Send</button>
+                </div>
+              </form>
             </div>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
 
       <!-- SECTION 2.1. -->
 
@@ -423,6 +467,7 @@
             </p>
           </div>
 
+          <!-- ЧЕТВЕРТОЕ ДЗ -->
           <div class="social-media-table">
             <p class="soc-med-footer">Social media</p>
 
@@ -456,6 +501,28 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <!-- ШЕСТОЕ ДЗ -->
+          <div class="social-media-table">
+            <p class="soc-med-footer">Subscribe</p>
+
+            <div class="tabl-subscr">
+              <div>
+                <label for="email"> </label>
+
+                <span class="color-subscr">
+                  <input type="email" name="mail" id="email" placeholder="    E-Mail  " />
+                </span>
+              </div>
+              <div>
+                <button class="button-subscr" type="submit">
+                  Subscribe
+                  <svg class="airplane" width="24" height="20">
+                    <use href="./images/iconss.svg#icon-fly"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
