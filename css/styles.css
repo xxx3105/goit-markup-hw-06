@@ -953,7 +953,7 @@ a {
 }
 
 .text-policy {
-  margin-left: 8px;
+  margin-left: 20px;
   margin-top: 16px;
   margin-bottom: 24px;
   color: var(--ramka-cutomer-color);
@@ -966,6 +966,36 @@ a {
 .pol-position {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.galka-pos {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+}
+
+/* .galka-pos:active {
+  color: var(--but-color);
+  fill: var(--but-color);
+  background-color: var(--but-color);
+  background-image: var(--but-color);
+} */
+
+/* .galka-pos:active  */
+
+.galka-pos-zwei {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+}
+
+.galka-pos-zwei:active {
+  position: absolute;
+  top: 22px;
+  left: -20px;
 }
 
 .img-pos {
