@@ -262,6 +262,7 @@
         </div>
       </section>
     </main>
+   
     <!-- FOOTER -->
     <footer class="color-footerbg">
       <div class="container">
@@ -313,23 +314,23 @@
           <div class="social-media-table">
             <p class="soc-med-footer">Subscribe</p>
 
-            <div class="tabl-subscr">
-              <div>
-                <label for="email"> </label>
+            <form action="form js-speaker-form">
+              <label for="email-two"> </label>
+              <input
+                class="color-subscr"
+                type="email"
+                name="mail"
+                id="email-two"
+                placeholder="E-Mail"
+              />
 
-                <span class="color-subscr">
-                  <input type="email" name="mail" id="email" placeholder="    E-Mail  " />
-                </span>
-              </div>
-              <div>
-                <button class="button-subscr" type="submit">
-                  Subscribe
-                  <svg class="airplane" width="24" height="20">
-                    <use href="./images/iconss.svg#icon-fly"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
+              <button class="button-subscr" type="submit">
+                <span class="name-of-button-subscr"> Subscribe </span>
+                <svg class="airplane" width="24" height="20">
+                  <use href="./images/iconss.svg#icon-fly"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
